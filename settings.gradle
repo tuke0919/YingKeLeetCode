@@ -1,2 +1,2 @@
-include ':app', ':LeetCode', ':SwordOffer'
+include ':app', ':LeetCode', ':SwordOffer', ':basic'
 rootProject.name='YingKeLeetCode'

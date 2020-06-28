@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/LeetCode" />
             <option value="$PROJECT_DIR$/SwordOffer" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/basic" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
