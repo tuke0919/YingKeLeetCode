@@ -3,7 +3,7 @@ package com.yingke.basic;
 import java.util.Arrays;
 
 /**
- * 功能：
+ * 功能：https://www.cnblogs.com/luomeng/p/10618709.html
  * </p>
  * <p>Copyright xxx.xxx.com 2020 All right reserved </p>
  *
@@ -19,8 +19,8 @@ public class 排序6_堆排序 {
      * 调整大顶堆（仅是调整过程，建立在大顶堆已构建的基础上）
      *
      * @param arr
-     * @param parent
-     * @param end
+     * @param parent 数组中父节点的位置
+     * @param end    待排序的尾元素索引
      */
     public static void adjustHeap(int []arr,int parent, int end){
         // 先取出当前元素i
