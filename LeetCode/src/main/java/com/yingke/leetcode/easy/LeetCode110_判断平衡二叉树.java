@@ -10,7 +10,7 @@ package com.yingke.leetcode.easy;
  * 最后修改人：无
  * <p>
  */
-public class LeetCodee110_判断平衡二叉树 {
+public class LeetCode110_判断平衡二叉树 {
 
     public class TreeNode {
         int val;
