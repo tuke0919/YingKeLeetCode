@@ -52,7 +52,8 @@ public class LeetCode278_第一个错误版本 {
             int left = 1;
             int right = n;
             while (left < right) {
-                int mid = (left + right) >> 1;
+                /// 不能写 int mid = (lo + hi) / 2; 要写 int mid = lo + (hi - lo) / 2; 会溢出
+                int mid = left + (right - left) / 2;
                 if (isBadVersion(mid)) {
                     right = mid;
                 } else {
