@@ -10,7 +10,7 @@ package com.yingke.leetcode.easy;
  * 最后修改人：无
  * <p>
  */
-public class LeetCode77_二进制求和 {
+public class LeetCode67_二进制求和 {
 
     /**
      * 给你两个二进制字符串，返回它们的和（用二进制表示）。
@@ -33,8 +33,19 @@ public class LeetCode77_二进制求和 {
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */
 
+    /**
+     * 分享Java的一种解决思路(参考链表加法的思想)：
+     */
     public String addBinary(String a, String b) {
-        return "";
+        StringBuffer sb = new StringBuffer();
+        int carry = 0, i = a.length()-1, j = b.length()-1;
+        while(i >= 0 || j >= 0 || carry != 0){
+            if(i >= 0) carry += a.charAt(i--)-'0';
+            if(j >= 0) carry += b.charAt(j--)-'0';
+            sb.append(carry%2);
+            carry /= 2;
+        }
+        return sb.reverse().toString();
 
     }
 }
