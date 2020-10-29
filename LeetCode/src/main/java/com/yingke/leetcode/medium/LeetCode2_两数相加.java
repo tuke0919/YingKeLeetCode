@@ -12,7 +12,7 @@ import java.util.List;
  * 最后修改人：无
  * <p>
  */
-public class 两数相加 {
+public class LeetCode2_两数相加 {
 
     /**
      * 给出两个 非空 的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。

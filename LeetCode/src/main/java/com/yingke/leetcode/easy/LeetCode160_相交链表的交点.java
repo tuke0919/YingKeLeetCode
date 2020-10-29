@@ -1,7 +1,5 @@
 package com.yingke.leetcode.easy;
 
-import com.yingke.leetcode.medium.两数相加;
-
 /**
  * 功能：
  * </p>
